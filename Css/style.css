@@ -1,0 +1,379 @@
+/* Percentage Bar Sectiom Start */
+.progress-container {
+width: 100%;
+height: 3px;
+background-color: transparent;
+position: fixed;
+top: 0;
+left: 0;
+z-index: 999;
+}
+.progress-bar {
+height: 3px;
+background: #f95738;
+width: 0%;
+}
+/* Percentage Bar Sectiom End */
+
+/* Section 1 Start */
+.section-1-outer{
+background-color: #fafcfb;
+border-bottom: 25px solid #f95738;
+}
+.section-1-outer .logo{
+padding: 38px 0 10px 10px;
+}
+/* .section-1-outer .logo img{
+    width: 50%;
+} */
+.section-1-outer .logo img:nth-child(2){
+display: none;
+}
+.section-1-outer .logo_2{
+text-align: right;
+padding-bottom: 10px;
+}
+
+/* Section 1 End */
+/* ****************************** */
+/* Section 2 Start */
+.section-2-outer .btn-top{
+border: none;
+outline: none;
+position: fixed;
+right: 1.5%;
+bottom: 3%;
+opacity: 0.9;
+transition: all 1s;
+cursor: pointer;
+background-color: #f95738;
+padding: 3px;
+border-radius: 100px;
+display: none;
+z-index: 999;
+}
+.section-2-outer .btn-top:hover{
+opacity: 1;
+bottom: 4%;
+transition: all 1s;
+}
+.section-2-outer{
+padding: 25px 0 0 ;
+background-color: #f7f7f7;
+}
+.section-2-outer .separate-border{
+border-bottom: 2px solid #f04524;
+padding: 0;
+}
+.section-2-outer .image-banner img{
+width: 100%;
+}
+.section-2-outer .content-box{
+padding: 5px 25px;
+}
+.section-2-outer .content-box h2{
+font-size: 30px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.03px;
+color: #525c63;
+}
+.section-2-outer .content-box p{
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.63;
+letter-spacing: 0.34px;
+margin: 20px 0 0;
+color: #525c63;
+}
+.section-2-outer .content-box .tab-link{
+padding: 20px 0;
+}
+.section-2-outer .content-box .tab-link a{
+color: #525c63;
+font-size: 16px;
+font-weight: 600;
+margin: 9px 35px 0px 0px;
+text-transform: capitalize;
+text-decoration: none;
+}
+.section-2-outer .content-box .tab-link a:hover{
+color: #0056b3;
+text-decoration: underline;
+}
+
+.section-2-outer .content-box .tab-link button{
+font-weight: 600;
+font-size: 16px;
+border-radius: 30px;
+border: solid 1px #f04524;
+background-color: #f04524;
+transition: linear all 0.3s;
+color: #fff;
+padding: 10px 30px;
+display: inline-block;
+}
+.section-2-outer .content-box .tab-link button:hover{
+background-color: transparent;
+color: #f04524;
+}
+/* Section 2 End */
+/* ************************************** */
+/* Section 3 Start */
+.section-3-outer{
+background-color: #fdf9f0;
+padding: 50px 0px;
+}
+.section-3-outer .section-3-inner{
+background-color: #f4f0e5;
+padding: 10px;
+}
+.section-3-outer h4{
+margin: 0px 0px 30px 0px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.03px;
+color: #797373;
+font-size: 30px;
+text-align: center;
+}
+.section-3-outer .section-3-inner .card{
+border: none;
+padding: 25px 0;
+text-align: center;
+background-color: transparent;
+border-right: 1px solid #c4b8b8;
+}
+.section-1-outer .section-3-inner .container .row .col-md-3{
+padding: 0;
+margin: 0;
+}
+.section-3-outer .section-3-inner .card img{
+width: 61px;
+height: 61px;
+margin: 25px auto ;
+}
+.section-3-outer .section-3-inner .col-md-3:nth-child(2) .card img{
+width: 65px;
+height: 45px;
+margin: 33px auto 35px;
+}
+.section-3-outer .section-3-inner .col-md-3:nth-child(3) .card img{
+width: 102px;
+height: 64px;
+}
+.section-3-outer .section-3-inner .col-md-3:nth-child(4) .card{
+border: none;
+
+}
+.section-3-outer .section-3-inner .card .title{
+font-size: 18px;
+font-weight: normal;
+text-align: center;
+} 
+/* Section 3 End */
+/* ************************ */
+/* Section 4 Start */
+.section-4-outer{
+background-color: #f6f5f1;
+}
+.section-4-outer .separate-top-border{
+border-top: 2px solid #f04524;
+}
+.section-4-outer .separate-bottom-border{
+border-bottom: 2px solid #f04524;
+}
+.section-4-outer .image-section img{
+margin: 20px 0 ;
+width: 100%;
+}
+.section-4-outer .text-section{
+padding: 0 15px ;
+}
+.section-4-outer .text-section h4{
+font-size: 30px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.03px;
+color: #525c63;
+margin: 25px 0px;
+}
+.section-4-outer .text-section p{
+font-size: 16px;
+font-weight: normal;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.63;
+letter-spacing: 0.34px;
+margin: 20px 0 0;
+color: #525c63;
+}
+.section-4-outer .text-section .tab-link{
+padding: 20px 0;
+}
+.section-4-outer .text-section .tab-link a{
+color: #525c63;
+font-size: 16px;
+font-weight: 600;
+margin: 9px 35px 0px 0px;
+text-transform: capitalize;
+text-decoration: none;
+}
+.section-4-outer .text-section .tab-link a:hover{
+color: #0056b3;
+text-decoration: underline;
+}
+.section-4-outer .text-section .tab-link button{
+font-weight: 600;
+font-size: 16px;
+border-radius: 30px;
+border: solid 1px #f04524;
+background-color: #f04524;
+transition: linear all 0.3s;
+color: #fff;
+padding: 10px 30px;
+display: inline-block;
+}
+.section-4-outer .text-section .tab-link button:hover{
+background-color: transparent;
+color: #f04524;
+}
+/* Section 4 End */
+/* ******************************* */
+/* Section 5 Start */
+.section-5-outer{
+background-color: #fdf9f0;
+padding: 50px 0 50px 0 ;
+}
+.section-5-outer h4{
+font-size: 30px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: normal;
+letter-spacing: 0.03px;
+color: #525c63;
+text-align: center;
+margin-bottom: 35px;
+}
+.section-5-outer .testimonial{
+background-color: #fef3ef;
+/* padding: 30px; */
+/* justify-content: center; */
+}
+.section-5-outer .testimonial .card{
+border: none;
+padding: 40px ;
+background-color: transparent;
+}
+.section-5-outer .testimonial .card .card-body{
+padding: 0;
+}
+.section-5-outer .testimonial .card img{
+width: 144px;
+height: 144px;
+/* margin: 0 auto; */
+}
+.section-5-outer .testimonial .card h6{
+margin: 15px auto;
+font-weight: 600;
+color: #918b8a;
+}
+.section-5-outer .testimonial .card p{
+font-size: 15px;
+font-weight: 500;
+color: #8e8787;
+}
+/* Section 5 End */
+/* ******************************* */
+/* Section 6 Start */
+.section-6-outer{
+background-color: #edefee;
+padding: 75px 50px;
+margin: 0px 0px;
+/* border: 2px solid #f04524; */
+}
+.section-6-outer button{
+width: 100%;    
+border-radius: 0;
+background-color: #fff !important;
+color: #0f2236;
+font-size: 17px;
+padding: 15px 30px ;
+margin: 0;
+border: none;
+}
+.section-6-outer .active{
+background-color: #0f2236 !important;
+color: #fff;
+}
+.bg-tab{
+background-color: #fff;
+}
+#tab-2{
+display: none;
+}
+.section-6-outer .text-content{
+padding: 15px;
+}
+.section-6-outer .text-content h4{
+font-size: 17px;
+font-weight: 600;
+}
+.section-6-outer .text-content p{
+font-size: 15px;
+}
+.section-6-outer .text-content ul{
+padding: 0;
+}
+.section-6-outer .text-content ul li{
+font-size: 15px;
+margin: 0 15px;
+}
+
+.section-6-outer .text-content_2{
+padding: 15px 25px;
+}
+.section-6-outer .text-content_2 p{
+padding: 15px 0;
+font-size: 17px;
+font-weight: 500;
+}
+.section-6-outer .text-content_2 ol{
+padding: 0;
+}
+.section-6-outer .text-content_2 ol li{
+font-size: 16px;
+margin: 0 15px;
+padding:  0 0 0 4px;
+line-height: 30px;
+}
+
+/* 6 Section  Seperate_Border */
+.mockup .separate-top-border{
+float: left;
+width: 50%;
+height: 2px;
+margin: 0 50px;
+background-color: #f04524;
+}
+.mockup .separate-bottom-border{
+width: 50%;
+height: 2px;
+margin: 0 50px;
+background-color: #f04524;
+float: right;
+}
+
+/* Section 6 End */
+/* ******************************** */
+
+

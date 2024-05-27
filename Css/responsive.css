@@ -1,0 +1,255 @@
+/* Media Query 480px to 320px Start */
+@media screen and (max-width: 480px) and (min-width: 320px) {
+/* Section 1 Start */
+.section-1-outer{
+border-bottom: 15px solid #f95738;
+}
+.section-1-outer .logo {
+display: flex;
+flex-direction: row;
+padding: 0;
+width: 99%;
+}
+.section-1-outer .logo img{
+margin: 15px 0 10px 0;
+width: 50%;
+}
+.section-1-outer .logo img:nth-child(2){
+/* width: 170px; */
+height: 50px;
+text-align: right;
+display: block;
+margin: 15px 0 10px 15px;
+padding: 15px 0  0 15px;
+}    
+.section-1-outer .logo_2{
+text-align: right;
+padding-bottom: 10px;
+display: none;
+}
+/* Section 1 End */
+/* ******************* */
+/* Section 2 Start */
+.section-2-outer .btn-top{
+opacity: 0.2;
+bottom: 4%;
+}
+.section-2-outer .separate-border{
+border-bottom: none;
+}
+.section-2-outer .content-box{
+padding: 5px 15px;
+}
+.section-2-outer .content-box h2{
+font-size: 17px;
+margin-top: 15px;
+}
+.section-2-outer .content-box p{
+font-size: 15px;
+margin-top: 15px;
+}
+.section-2-outer .content-box .tab-link{
+text-align: center;
+padding: 0 0 0 0 ;
+}
+.section-2-outer .content-box .tab-link a{
+margin:0 ;
+width: 60%;
+text-align: center;
+font-size: 14.5px;
+}
+.section-2-outer .content-box .tab-link button{
+display: block;
+width: 60%;
+margin: 15px auto 20px;
+padding: 8px 10px;
+font-size: 14px;
+}
+/* Section 2 End */
+/* ******************** */
+/* Section 3 Start */
+.section-3-outer{
+padding: 30px 0;
+}
+.section-3-outer h4{
+font-size: 18px;
+}
+.section-3-outer .section-3-inner .card{
+padding: 0;
+border-right:none;
+}
+.section-3-outer .section-3-inner .card .title{
+font-size: 16px;
+}
+.section-3-outer .section-3-inner .col-md-3:nth-child(2) .card img{
+margin: 15px auto 0;
+}
+/* Section 3 End */
+/* ************************* */
+/* Section 4 Start */
+.section-4-outer .separate-top-border{
+border-top: none;
+}
+.section-4-outer .separate-bottom-border{
+border-bottom: none;
+}
+.section-4-outer .text-section{
+padding: 0;
+}
+.section-4-outer .text-section h4{
+font-size: 17px;
+margin: 0;
+}
+.section-4-outer .text-section p{
+font-size: 15px;
+margin: 10px 0;
+}
+
+.section-4-outer .text-section .tab-link{
+text-align: center;
+padding: 0 0 0 0 ;
+}
+.section-4-outer .text-section .tab-link a{
+margin:0 ;
+width: 60%;
+text-align: center;
+font-size: 14.5px;
+}
+.section-4-outer .text-section .tab-link button{
+display: block;
+width: 60%;
+margin: 15px auto 20px;
+padding: 8px 10px;
+font-size: 14px;
+}
+/* Section 4 End */
+/* ***************************** */
+/* Section 5 Start */
+.section-5-outer{
+    padding: 30px 0;
+}
+.section-5-outer h4{
+font-size: 20px;
+margin-bottom: 25px;
+}
+.section-5-outer .testimonial .card img{
+margin: 0 auto;
+}
+.section-5-outer .testimonial .card{
+padding: 20px 0 ;
+text-align: center;
+}
+/* Section 5 End */
+/* ********************* */
+/* Section 6 Start */
+.section-6-outer{
+padding: 40px 10px;
+}
+.section-6-outer .text-content{
+padding: 20px 0 0 0;
+}
+.section-6-outer .text-content h4{
+font-size: 16px;
+}
+.section-6-outer .text-content p{
+font-size: 14px;
+font-weight: 500;
+}
+.section-6-outer .text-content_2{
+padding: 20px 0 0 0;
+}
+.section-6-outer .text-content_2 p{
+padding: 0;
+font-size: 15px;
+}
+
+.section-6-outer .text-content_2 ol li{
+font-size: 14px;
+font-weight: 500;
+padding:  0 0 0 2px;
+line-height: 22px;
+margin: 0 15px 10px;
+}
+/* 6 Section  Seperate_Border */
+.mockup{
+display: none;
+}
+/* Section 6 End */
+}
+/* Media Query 480px to 320px End */
+/* ******************************** */
+/* Media Query 991px to 481px Start */
+@media screen and (max-width: 991px) and (min-width: 481px){
+/* Section 2 Start */
+.section-2-outer .content-box{
+padding: 5px 15px;
+}
+.section-2-outer .content-box h2{
+font-size: 22px;
+}
+.section-2-outer .content-box .tab-link{
+padding: 20px 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.section-2-outer .content-box .tab-link a{
+margin: 9px 22px 0 0 ;
+}
+/* Section 2 End */
+/* ************************************** */
+/* Section 3 Start */
+.section-3-outer{
+padding: 50px 40px;
+}
+.section-3-outer h4{
+font-size: 23px;
+}
+/* Section 3 End */
+/* ******************** */
+/* Section 4 Start */
+.section-4-outer .text-section{
+padding: 0;
+}
+.section-4-outer .text-section .tab-link{
+padding: 20px 0;
+display: flex;
+flex-direction: row;
+justify-content: center;
+}
+.section-4-outer .text-section .tab-link a{
+margin: 9px 22px 0 0 ;
+}
+.section-4-outer .text-section h4{
+font-size: 22px;
+}
+/* Section 4 End */
+/* ******************* */
+/* Section 5 Start */
+.section-5-outer{
+    padding: 50px 40px;
+}
+.section-5-outer h4{
+font-size: 25px;
+}
+.section-5-outer .testimonial .card{
+padding: 40px 20px;
+text-align: center;
+}
+.section-5-outer .testimonial .card img{
+margin: 0 auto;
+}
+/* Section 5 End */
+/* ******************************* */
+}
+
+@media screen and (max-width: 767px) {
+.section-1-outer .logo img{
+/* width: 252.6px ;
+height: 76px; */
+width: 50%;
+}
+.section-3-outer .section-3-inner .card{
+border: none;
+}
+}
